@@ -1,9 +1,7 @@
 import re
 import random
 
-#the only way it runs is with run and debug as well as I couldn't figure out why my code doesn't display
-#the win message or ends it. When you lose it gives the losing message and ends the program.
-
+#the only way it runs is with run and debug
 pool_file = open(".com.google.Chrome.JLV29a")
 
 
@@ -38,7 +36,7 @@ current_incorrect_guesses = 0
 
 letters_guessed = []
 
-while current_incorrect_guesses < num_of_incorrect_guesses or False not in answer_guessed:
+while current_incorrect_guesses < num_of_incorrect_guesses and False in answer_guessed:
     print(f"Number of incorrect guesses left: {num_of_incorrect_guesses - current_incorrect_guesses}")
 
     print("Guessed letters: ", end="")
