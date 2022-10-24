@@ -1,6 +1,9 @@
 import re
 import random
 
+#the only way it runs is with run and debug as well as I couldn't figure out why my code doesn't display
+#the win message or ends it. When you lose it gives the losing message and ends the program.
+
 pool_file = open(".com.google.Chrome.JLV29a")
 
 
